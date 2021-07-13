@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>khs group</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+<div id="div">
+  <a id="a" href="khs group.html"><img src="khs8.png" width="150px" height="80px";
+<ul id="#ul">
+  <li id="nocol"><a></a></li>
+  <li id="col"><a href="contactus.html">CONTACT US</a></li>
+  <li id="col"><a href="about.html">ABOUT US</a></li>
+  <li id="col"><a href="software.html">SOFTWARE INTEGRITY</a></li>
+  <li id="col"><a href="siliconip.html">SILICON IP</a></li>
+  <li id="col"><a href="design.html">SILICON DESIGN& VERIFICATION</a></li>
+</ul>
+</div>
+</nav>
+<br></br>
+<h1 id="h1" style="color:purple;font-size:40px;">Contact Us</h1></br>
+<table id="tab7">
+<tr><td id="tab8">
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat:30.771034999999998, lng: 76.57712219999999};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6o-V037txS0bXz-bm04je7ck6TEfcv2E&callback=initMap">
+    </script>
+</td><td><h1 id="h1" style="color:purple;margin-left:0">khs Corporate Headquarters</h1>
+<p id="pa">690 East Middlefield Road<br>
+Mountain View, CA 94043</p>
+<p id="pa">650-584-5000<br>
+800-541-7737</p>
+</td></tr>
+</table></br></br>
+<p id="pa" style="margin-left:30px;">Want to speak with a <br>sales expert?</p>
+<a href="contact.html"><button class="button" style="margin-left:30px;">Contact Us</button></a><br>
+<div style="width:100%;height:200px;"></div>
+<footer>
+<table>
+<tr><td>
+<div>
+<img src="khs8.png" width="150px" height="80px"></br></br>
+<p style="color:purple;">©2019 khs, Inc. All Rights Reserved</p> 
+</div></td>
+</tr>
+</table>
+</footer> 
+</body>
